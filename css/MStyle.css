@@ -10,6 +10,7 @@ body{
    width: 100vw;
    overflow-x: hidden;
    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+   background-size: cover;
 }
 
 /* navbar css */
@@ -109,7 +110,9 @@ h1,h2{
     cursor: pointer;
 }
 
-
+.Text_bold_color{
+    color: #000;
+}
 /* Col_2 */
 
 /* button */
@@ -358,6 +361,34 @@ input[type=submit]:hover{
     color: #a08468;
     font-family: cursive;
 }
+
+/* About page */
+.waper{
+    align-items: center;
+    justify-content: center;
+    height:550px;
+    display: flex;
+}
+
+.main_div{
+    border-radius: 33px;
+    height: 50%;
+    width: 80%;
+}
+.p1{
+    text-align: center;
+    font-size: 23px;
+    font-family: cursive;
+    font-weight: 700;
+    border-radius: 30px;
+    background: #EEEEEE;
+    line-height: 1.75;
+    padding: 20px;
+    font-style: italic;
+
+}
+
+
 @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
